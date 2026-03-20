@@ -33,17 +33,12 @@ export default function Navbar() {
       <nav className={`fixed top-0 left-0 right-0 z-50 bg-white transition-shadow duration-200 ${scrolled ? 'shadow-sm' : ''}`}>
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex flex-col leading-none">
-            <div className="flex items-center">
-              <span className="text-lg font-bold text-gray-900 tracking-tight" style={{ fontFamily: 'var(--font-syne)' }}>
-                VECTEUR
-              </span>
-              <span className="text-lg font-bold text-blue-600 tracking-tight" style={{ fontFamily: 'var(--font-syne)' }}>
-                AI
-              </span>
-            </div>
-            <span className="text-[10px] text-gray-400 tracking-wide leading-none mt-0.5">
-              {lang === 'fr' ? 'Commissionnaire de transport' : 'Freight Forwarding'}
+          <Link href="/" className="flex items-center">
+            <span className="text-lg font-bold text-gray-900 tracking-tight" style={{ fontFamily: 'var(--font-syne)' }}>
+              VECTEUR
+            </span>
+            <span className="text-lg font-bold text-blue-600 tracking-tight" style={{ fontFamily: 'var(--font-syne)' }}>
+              AI
             </span>
           </Link>
 

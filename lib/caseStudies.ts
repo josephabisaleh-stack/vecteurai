@@ -120,6 +120,30 @@ export const caseStudies = [
     kpi: '+3.2pts margin',
   },
   {
+    id: 'cash-flow-optimization',
+    tag: { fr: 'Trésorerie & Finance', en: 'Treasury & Finance' },
+    icon: 'DollarSign',
+    color: 'cyan',
+    title: {
+      fr: 'Optimisation de la trésorerie',
+      en: 'Cash Flow Optimization'
+    },
+    challenge: {
+      fr: 'Un groupe logistique multi-entités dispose d\'une visibilité limitée sur sa trésorerie à 30-90 jours. Les décaissements imprévus entraînent des lignes de crédit court terme coûteuses et des tensions avec les fournisseurs.',
+      en: 'A multi-entity logistics group has limited visibility on its 30-90 day cash position. Unexpected disbursements trigger costly short-term credit lines and supplier tensions.'
+    },
+    solution: {
+      fr: 'Modèle de prévision de trésorerie par IA combinant données ERP, historiques de paiement clients/fournisseurs et cycles opérationnels. Tableau de bord en temps réel avec alertes de tension de liquidité et recommandations d\'actions correctives.',
+      en: 'AI-based cash flow forecasting model combining ERP data, customer/supplier payment histories, and operational cycles. Real-time dashboard with liquidity stress alerts and corrective action recommendations.'
+    },
+    impact: [
+      { fr: '91% de précision de prévision à horizon 60 jours', en: '91% forecasting accuracy at 60-day horizon' },
+      { fr: '€420K de réduction des coûts de financement court terme', en: '€420K reduction in short-term financing costs' },
+      { fr: 'DSO réduit de 48 à 34 jours', en: 'DSO reduced from 48 to 34 days' },
+    ],
+    kpi: '-€420K financing',
+  },
+  {
     id: 'fleet-maintenance',
     tag: { fr: 'Flotte & Maintenance', en: 'Fleet & Maintenance' },
     icon: 'Wrench',

@@ -6,7 +6,6 @@ import { motion } from 'framer-motion'
 import { ArrowRight, ChevronDown } from 'lucide-react'
 import { useLanguage } from '@/hooks/useLanguage'
 import { t } from '@/lib/translations'
-import AnimatedCounter from '@/components/ui/AnimatedCounter'
 
 export default function HomeHero() {
   const { lang } = useLanguage()
@@ -40,95 +39,61 @@ export default function HomeHero() {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-
-          {/* Left: Headline + buttons */}
-          <div className="max-w-xl">
-            {/* Badge pill */}
-            <motion.div
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-blue-200 bg-blue-50 text-blue-700 text-xs font-semibold tracking-widest uppercase mb-8"
-            >
-              {t.hero.badge[lang]}
-            </motion.div>
-
-            {/* Headline */}
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="font-extrabold text-gray-900 leading-[1.07] mb-6"
-              style={{ fontFamily: 'var(--font-syne)', fontSize: 'clamp(2.6rem, 5vw, 4rem)' }}
-            >
-              {t.hero.headline1[lang]}{' '}
-              <span className="text-blue-600">{t.hero.headline2[lang]}</span>
-              <br />
-              {t.hero.headline3[lang]}
-            </motion.h1>
-
-            {/* Subtitle */}
-            <motion.p
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.25 }}
-              className="text-gray-500 text-base leading-relaxed mb-10 max-w-lg"
-            >
-              {t.hero.sub[lang]}
-            </motion.p>
-
-            {/* CTAs */}
-            <motion.div
-              initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.38 }}
-              className="flex flex-wrap gap-3"
-            >
-              <Link
-                href="/cas-clients"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-semibold text-sm rounded-lg hover:bg-blue-700 transition-colors shadow-sm"
-              >
-                {t.hero.cta1[lang]}
-                <ArrowRight size={15} />
-              </Link>
-              <Link
-                href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3 border border-gray-300 text-gray-700 font-semibold text-sm rounded-lg hover:border-gray-400 hover:bg-gray-50 transition-all"
-              >
-                {t.hero.cta2[lang]}
-              </Link>
-            </motion.div>
-          </div>
-
-          {/* Right: Stat cards */}
+        <div className="max-w-2xl">
+          {/* Badge pill */}
           <motion.div
-            initial={{ opacity: 0, x: 24 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="flex flex-col gap-4 lg:max-w-xs ml-auto w-full"
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-blue-200 bg-blue-50 text-blue-700 text-xs font-semibold tracking-widest uppercase mb-8"
           >
-            {[
-              { target: 12,  suffix: '',   label: t.hero.stat1Label[lang] },
-              { target: 15,  suffix: 'M+', prefix: '', label: t.hero.stat2Label[lang] },
-              { target: 60,  suffix: '+',  label: t.hero.stat3Label[lang] },
-            ].map((stat, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.3 + i * 0.1 }}
-                className="bg-white border border-gray-200 rounded-xl px-6 py-5 flex items-center gap-4 shadow-sm"
-              >
-                <span
-                  className="text-4xl font-extrabold text-blue-600 leading-none"
-                  style={{ fontFamily: 'var(--font-syne)' }}
-                >
-                  <AnimatedCounter target={stat.target} suffix={stat.suffix} prefix={stat.prefix} />
-                </span>
-                <span className="text-gray-500 text-sm leading-snug">{stat.label}</span>
-              </motion.div>
-            ))}
+            {t.hero.badge[lang]}
+          </motion.div>
+
+          {/* Headline */}
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="font-extrabold text-gray-900 leading-[1.07] mb-6"
+            style={{ fontFamily: 'var(--font-syne)', fontSize: 'clamp(2.6rem, 5vw, 4rem)' }}
+          >
+            {t.hero.headline1[lang]}{' '}
+            <span className="text-blue-600">{t.hero.headline2[lang]}</span>
+            <br />
+            {t.hero.headline3[lang]}
+          </motion.h1>
+
+          {/* Subtitle */}
+          <motion.p
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.25 }}
+            className="text-gray-500 text-base leading-relaxed mb-10 max-w-lg"
+          >
+            {t.hero.sub[lang]}
+          </motion.p>
+
+          {/* CTAs */}
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.38 }}
+            className="flex flex-wrap gap-3"
+          >
+            <Link
+              href="/cas-clients"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-semibold text-sm rounded-lg hover:bg-blue-700 transition-colors shadow-sm"
+            >
+              {t.hero.cta1[lang]}
+              <ArrowRight size={15} />
+            </Link>
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 px-6 py-3 border border-gray-300 text-gray-700 font-semibold text-sm rounded-lg hover:border-gray-400 hover:bg-gray-50 transition-all"
+            >
+              {t.hero.cta2[lang]}
+            </Link>
           </motion.div>
         </div>
       </div>

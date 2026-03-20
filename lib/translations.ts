@@ -82,11 +82,11 @@ export const t = {
         }
       },
       {
-        icon: 'Paintbrush',
-        title: { fr: 'Transport d\'œuvres d\'art', en: 'Fine Art Shipping' },
+        icon: 'TrendingUp',
+        title: { fr: 'Trésorerie & Finance', en: 'Treasury & Finance' },
         desc: {
-          fr: 'Tarification intelligente, routing spécialisé, gestion des risques pour objets de haute valeur.',
-          en: 'Intelligent pricing, specialized routing, risk management for high-value objects.'
+          fr: 'Prévision de trésorerie par IA, optimisation du BFR, réduction des coûts de financement court terme.',
+          en: 'AI cash flow forecasting, working capital optimization, short-term financing cost reduction.'
         }
       },
       {

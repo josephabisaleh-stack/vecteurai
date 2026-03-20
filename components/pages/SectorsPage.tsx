@@ -12,7 +12,7 @@ const sectorImages: Record<string, string> = {
   Package:    'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&q=80&auto=format&fit=crop',
   Anchor:     'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=600&q=80&auto=format&fit=crop',
   Zap:        'https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=600&q=80&auto=format&fit=crop',
-  Paintbrush: 'https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=600&q=80&auto=format&fit=crop',
+  TrendingUp: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=80&auto=format&fit=crop',
   Settings:   'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80&auto=format&fit=crop',
 }
 

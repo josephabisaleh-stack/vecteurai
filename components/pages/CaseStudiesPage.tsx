@@ -3,20 +3,21 @@
 import Image from 'next/image'
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Route, TrendingUp, FileCheck, Users, BarChart3, Wrench, ChevronDown, CheckCircle2 } from 'lucide-react'
+import { Route, TrendingUp, FileCheck, Users, BarChart3, Wrench, DollarSign, ChevronDown, CheckCircle2 } from 'lucide-react'
 import { useLanguage } from '@/hooks/useLanguage'
 import { t } from '@/lib/translations'
 import { caseStudies } from '@/lib/caseStudies'
 
-const iconMap: Record<string, React.ElementType> = { Route, TrendingUp, FileCheck, Users, BarChart3, Wrench }
+const iconMap: Record<string, React.ElementType> = { Route, TrendingUp, FileCheck, Users, BarChart3, Wrench, DollarSign }
 
 const caseImages: Record<string, string> = {
   'route-optimization': 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=600&q=80&auto=format&fit=crop',
   'demand-forecasting': 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80&auto=format&fit=crop',
   'customs-automation': 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=600&q=80&auto=format&fit=crop',
   'hr-recruitment':     'https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=600&q=80&auto=format&fit=crop',
-  'dynamic-pricing':    'https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=600&q=80&auto=format&fit=crop',
-  'fleet-maintenance':  'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&auto=format&fit=crop',
+  'dynamic-pricing':        'https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=600&q=80&auto=format&fit=crop',
+  'cash-flow-optimization': 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=80&auto=format&fit=crop',
+  'fleet-maintenance':      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&auto=format&fit=crop',
 }
 
 type FilterKey = 'all' | 'transport' | 'logistique' | 'fret' | 'rh'
