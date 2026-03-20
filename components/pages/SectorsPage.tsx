@@ -14,6 +14,8 @@ const sectorImages: Record<string, string> = {
   Zap:        'https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=600&q=80&auto=format&fit=crop',
   TrendingUp: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=80&auto=format&fit=crop',
   Settings:   'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80&auto=format&fit=crop',
+  Globe:      'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&q=80&auto=format&fit=crop',
+  BarChart2:  'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80&auto=format&fit=crop',
 }
 
 export default function SectorsPage() {

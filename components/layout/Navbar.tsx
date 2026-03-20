@@ -21,11 +21,10 @@ export default function Navbar() {
   }, [])
 
   const links = [
-    { href: '/',            label: t.nav.overview[lang] },
-    { href: '/profil',      label: t.nav.profile[lang] },
-    { href: '/secteurs',    label: t.nav.industries[lang] },
-    { href: '/cas-clients', label: t.nav.caseStudies[lang] },
-    { href: '/contact',     label: t.nav.contact[lang] },
+    { href: '/',         label: t.nav.overview[lang] },
+    { href: '/profil',   label: t.nav.profile[lang] },
+    { href: '/secteurs', label: t.nav.industries[lang] },
+    { href: '/contact',  label: t.nav.contact[lang] },
   ]
 
   return (

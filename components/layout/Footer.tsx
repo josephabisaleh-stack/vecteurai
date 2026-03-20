@@ -51,11 +51,10 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               {[
-                { href: '/',            label: t.nav.overview[lang] },
-                { href: '/profil',      label: t.nav.profile[lang] },
-                { href: '/secteurs',    label: t.nav.industries[lang] },
-                { href: '/cas-clients', label: t.nav.caseStudies[lang] },
-                { href: '/contact',     label: t.nav.contact[lang] },
+                { href: '/',         label: t.nav.overview[lang] },
+                { href: '/profil',   label: t.nav.profile[lang] },
+                { href: '/secteurs', label: t.nav.industries[lang] },
+                { href: '/contact',  label: t.nav.contact[lang] },
               ].map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="text-white/50 hover:text-white text-sm transition-colors">

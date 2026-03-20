@@ -97,6 +97,22 @@ export const t = {
           en: 'Transport procurement optimization, AI-assisted tenders, flow consolidation.'
         }
       },
+      {
+        icon: 'Globe',
+        title: { fr: 'Création de site web', en: 'Website Creation' },
+        desc: {
+          fr: 'Conception et développement de sites web modernes, performants et optimisés pour convertir vos visiteurs en clients.',
+          en: 'Design and development of modern, high-performance websites optimized to convert visitors into clients.'
+        }
+      },
+      {
+        icon: 'BarChart2',
+        title: { fr: 'Stratégie commerciale', en: 'Commercial Strategy' },
+        desc: {
+          fr: 'Définition de votre positionnement, structuration de l\'offre, développement des canaux de vente et accompagnement à la croissance.',
+          en: 'Positioning definition, offer structuring, sales channel development, and growth advisory.'
+        }
+      },
     ]
   },
   caseStudies: {
