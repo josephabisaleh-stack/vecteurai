@@ -14,9 +14,9 @@ export async function POST(req: Request) {
   await transporter.sendMail({
     from: process.env.EMAIL_USER,
     to: 'joseph.abisaleh@gmail.com',
-    subject: `[VecteurAI] Nouveau contact — ${company || name}`,
+    subject: `[LogiMind] Nouveau contact — ${company || name}`,
     html: `
-      <h2>Nouveau message VecteurAI</h2>
+      <h2>Nouveau message LogiMind</h2>
       <p><strong>Nom:</strong> ${name}</p>
       <p><strong>Email:</strong> ${email}</p>
       <p><strong>Entreprise:</strong> ${company || 'Non renseigné'}</p>

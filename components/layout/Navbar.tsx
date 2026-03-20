@@ -34,10 +34,10 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <span className="text-lg font-bold text-gray-900 tracking-tight" style={{ fontFamily: 'var(--font-syne)' }}>
-              VECTEUR
+              LOGI
             </span>
             <span className="text-lg font-bold text-blue-600 tracking-tight" style={{ fontFamily: 'var(--font-syne)' }}>
-              AI
+              MIND
             </span>
           </Link>
 

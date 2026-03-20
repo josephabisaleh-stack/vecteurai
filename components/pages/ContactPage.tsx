@@ -73,7 +73,7 @@ export default function ContactPage() {
                 Joseph Abisaleh
               </h3>
               <p className="text-gray-500 text-sm mb-5">
-                {lang === 'fr' ? 'Fondateur, VecteurAI' : 'Founder, VecteurAI'}
+                {lang === 'fr' ? 'Fondateur, LogiMind' : 'Founder, LogiMind'}
               </p>
               <a href="mailto:joseph.abisaleh@gmail.com"
                 className="flex items-center gap-3 text-gray-600 hover:text-blue-600 transition-colors text-sm group">

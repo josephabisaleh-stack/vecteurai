@@ -55,7 +55,7 @@ export default function ProfilePage() {
                 Joseph Abisaleh
               </h2>
               <p className="text-gray-500 text-sm mb-6">
-                {lang === 'fr' ? 'Fondateur, VecteurAI' : 'Founder, VecteurAI'}
+                {lang === 'fr' ? 'Fondateur, LogiMind' : 'Founder, LogiMind'}
               </p>
 
               <div className="w-full h-px bg-gray-200 mb-6" />

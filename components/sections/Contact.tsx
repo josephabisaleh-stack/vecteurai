@@ -119,7 +119,7 @@ export default function Contact() {
                   Joseph Abisaleh
                 </h3>
                 <p className="text-slate-500 text-sm mb-5">
-                  {lang === 'fr' ? 'Fondateur, VecteurAI' : 'Founder, VecteurAI'}
+                  {lang === 'fr' ? 'Fondateur, LogiMind' : 'Founder, LogiMind'}
                 </p>
                 <a
                   href="mailto:joseph.abisaleh@gmail.com"
@@ -145,7 +145,7 @@ export default function Contact() {
                 </p>
                 <div className="flex flex-col gap-3">
                   <a
-                    href="https://wa.me/33XXXXXXXXX"
+                    href="https://wa.me/41762036203"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 px-4 py-3 rounded-lg border border-emerald-500/20 bg-emerald-500/6 text-emerald-400 hover:bg-emerald-500/12 transition-colors text-sm font-medium"
@@ -154,7 +154,7 @@ export default function Contact() {
                     {t.contact.whatsapp[lang]}
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/joseph-abisaleh"
+                    href="https://www.linkedin.com/in/joseph-abisaleh-03335632/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 px-4 py-3 rounded-lg border border-blue-500/20 bg-blue-500/6 text-blue-400 hover:bg-blue-500/12 transition-colors text-sm font-medium"

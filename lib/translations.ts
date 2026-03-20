@@ -9,7 +9,7 @@ export const t = {
     contact:      { fr: 'Contact',      en: 'Contact' },
   },
   hero: {
-    badge:       { fr: 'IA · Transport · Logistique · 🇨🇭 🇦🇪 🇫🇷 🇬🇧', en: 'AI · Transport · Logistics · 🇨🇭 🇦🇪 🇫🇷 🇬🇧' },
+    badge:       { fr: 'IA · Transport · Logistique', en: 'AI · Transport · Logistics' },
     headline1:   { fr: 'Transformez votre', en: 'Transform your' },
     headline2:   { fr: 'chaîne logistique', en: 'logistics chain' },
     headline3:   { fr: 'avec l\'intelligence artificielle', en: 'with artificial intelligence' },
@@ -27,12 +27,12 @@ export const t = {
     sectionTag:  { fr: 'Fondateur', en: 'Founder' },
     headline:    { fr: 'Une expertise terrain\nau service de l\'IA', en: 'Field expertise\npowering AI' },
     bio1: {
-      fr: 'Après 12 ans à construire et diriger des opérations logistiques complexes en Europe et au Moyen-Orient — de Strategy& à Convelio en passant par GEP — j\'ai fondé VecteurAI pour appliquer l\'intelligence artificielle aux problèmes réels du terrain.',
-      en: 'After 12 years building and leading complex logistics operations across Europe and the Middle East — from Strategy& to Convelio and GEP — I founded VecteurAI to apply artificial intelligence to real operational challenges.'
+      fr: 'Après 12 ans à construire et diriger des opérations logistiques complexes en Europe et au Moyen-Orient — de Strategy& à Convelio en passant par GEP — j\'ai fondé LogiMind pour appliquer l\'intelligence artificielle aux problèmes réels du terrain.',
+      en: 'After 12 years building and leading complex logistics operations across Europe and the Middle East — from Strategy& to Convelio and GEP — I founded LogiMind to apply artificial intelligence to real operational challenges.'
     },
     bio2: {
-      fr: 'Mon avantage : je comprends aussi bien les modèles financiers que les flux de quai. VecteurAI ne livre pas des rapports — nous déployons des solutions.',
-      en: 'My edge: I understand financial models as well as dock operations. VecteurAI doesn\'t deliver reports — we deploy solutions.'
+      fr: 'Mon avantage : je comprends aussi bien les modèles financiers que les flux de quai. LogiMind ne livre pas des rapports — nous déployons des solutions.',
+      en: 'My edge: I understand financial models as well as dock operations. LogiMind doesn\'t deliver reports — we deploy solutions.'
     },
     credentials: {
       fr: ['General Manager Europe, Convelio (€15M P&L)', 'Senior Manager, Strategy& / PwC — Dubaï', 'MSc Ingénierie Civile, Imperial College London & UCL', 'BSc Génie Civil, EPFL Lausanne', 'Formation IA & Développement, Le Wagon 2026'],
@@ -45,8 +45,8 @@ export const t = {
     sectionTag:  { fr: 'Secteurs d\'activité', en: 'Industries covered' },
     headline:    { fr: 'Des secteurs que\nnous connaissons de l\'intérieur', en: 'Industries we know\nfrom the inside' },
     sub: {
-      fr: 'VecteurAI intervient exclusivement dans les secteurs où nous avons une expertise opérationnelle directe.',
-      en: 'VecteurAI works exclusively in sectors where we have direct operational expertise.'
+      fr: 'LogiMind intervient exclusivement dans les secteurs où nous avons une expertise opérationnelle directe.',
+      en: 'LogiMind works exclusively in sectors where we have direct operational expertise.'
     },
     items: [
       {

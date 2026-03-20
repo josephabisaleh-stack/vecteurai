@@ -19,10 +19,10 @@ export default function Footer() {
           <div className="md:col-span-2">
             <Link href="/" className="inline-flex items-center mb-4">
               <span className="text-2xl font-extrabold text-white tracking-[0.1em]" style={{ fontFamily: 'var(--font-syne)' }}>
-                VECTEUR
+                LOGI
               </span>
               <span className="text-2xl font-extrabold text-blue-400 tracking-[0.1em]" style={{ fontFamily: 'var(--font-syne)' }}>
-                AI
+                MIND
               </span>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed max-w-xs">
@@ -78,8 +78,8 @@ export default function Footer() {
         </div>
 
         <div className="pt-4 border-t border-white/8 flex flex-col md:flex-row justify-between items-center gap-3">
-          <p className="text-white/30 text-xs">© 2025 VecteurAI. {t.footer.rights[lang]}</p>
-          <p className="text-white/20 text-xs" style={{ fontFamily: 'var(--font-jetbrains)' }}>vecteurai.com</p>
+          <p className="text-white/30 text-xs">© 2025 LogiMind. {t.footer.rights[lang]}</p>
+          <p className="text-white/20 text-xs" style={{ fontFamily: 'var(--font-jetbrains)' }}>logimind.io</p>
         </div>
       </div>
     </footer>

@@ -23,15 +23,15 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'VecteurAI — IA pour la logistique et le transport',
+  title: 'LogiMind — IA pour la logistique et le transport',
   description:
     'Conseil en intelligence artificielle spécialisé pour les secteurs du transport, de la logistique et du fret. Solutions concrètes par des experts terrain.',
   keywords: 'IA logistique, intelligence artificielle transport, optimisation itinéraires, automatisation fret, AI freight',
   openGraph: {
-    title: 'VecteurAI',
+    title: 'LogiMind',
     description: 'AI consulting for transport & logistics',
-    url: 'https://vecteurai.com',
-    siteName: 'VecteurAI',
+    url: 'https://www.logimind.io',
+    siteName: 'LogiMind',
   },
 }
 
