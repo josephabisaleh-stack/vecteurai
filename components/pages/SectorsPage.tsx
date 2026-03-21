@@ -23,17 +23,15 @@ export default function SectorsPage() {
   const items = t.industries.items
 
   return (
-    <div className="pt-16 min-h-screen bg-page">
+    <div className="pt-16 min-h-screen bg-white">
       {/* Page title */}
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-6 py-12">
-          <p className="text-xs font-bold text-blue-600 uppercase tracking-[0.2em] mb-3" style={{ fontFamily: 'var(--font-syne)' }}>
-            {t.industries.sectionTag[lang]}
-          </p>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4 whitespace-pre-line" style={{ fontFamily: 'var(--font-syne)' }}>
+
+          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4" style={{ fontFamily: 'var(--font-syne)' }}>
             {t.industries.headline[lang]}
           </h1>
-          <p className="text-gray-500 max-w-xl">{t.industries.sub[lang]}</p>
+          <p className="text-gray-500">{t.industries.sub[lang]}</p>
         </div>
       </div>
 

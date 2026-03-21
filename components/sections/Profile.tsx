@@ -55,7 +55,7 @@ export default function Profile() {
                 }}
               >
                 <Image
-                  src="/joseph-profile.jpg"
+                  src="/joseph-profile.png"
                   alt="Joseph Abisaleh"
                   fill
                   className="object-cover"

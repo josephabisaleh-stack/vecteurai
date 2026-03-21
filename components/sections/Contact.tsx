@@ -47,11 +47,11 @@ export default function Contact() {
     <section
       id="contact"
       className="relative py-32 overflow-hidden"
-      style={{ background: 'linear-gradient(180deg, #0C1422 0%, #070C18 100%)' }}
+      style={{ background: 'linear-gradient(180deg, #222831 0%, #14181E 100%)' }}
     >
       <div
         className="absolute top-0 left-0 right-0 h-px"
-        style={{ background: 'linear-gradient(to right, transparent, rgba(0,217,255,0.25), transparent)' }}
+        style={{ background: 'linear-gradient(to right, transparent, rgba(148,137,121,0.25), transparent)' }}
       />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
@@ -100,7 +100,7 @@ export default function Contact() {
           >
             <div
               className="rounded-xl p-8 h-full flex flex-col gap-8 border border-cyan-400/15"
-              style={{ background: 'linear-gradient(135deg, #111D30 0%, #0C1422 100%)' }}
+              style={{ background: 'linear-gradient(135deg, #393E46 0%, #2D333B 100%)' }}
             >
               {/* Free consultation badge */}
               <div
@@ -177,7 +177,7 @@ export default function Contact() {
           >
             {submitted ? (
               <div className="h-full flex flex-col items-center justify-center text-center p-12 rounded-xl border border-white/6"
-                style={{ background: 'linear-gradient(135deg, #111D30 0%, #0C1422 100%)' }}>
+                style={{ background: 'linear-gradient(135deg, #393E46 0%, #2D333B 100%)' }}>
                 <motion.div
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
@@ -196,7 +196,7 @@ export default function Contact() {
               <form
                 onSubmit={handleSubmit(onSubmit)}
                 className="space-y-4 rounded-xl border border-white/6 p-8"
-                style={{ background: 'linear-gradient(135deg, #111D30 0%, #0C1422 100%)' }}
+                style={{ background: 'linear-gradient(135deg, #393E46 0%, #2D333B 100%)' }}
               >
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <input

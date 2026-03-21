@@ -9,7 +9,7 @@ export default function HomeCTA() {
   const { lang } = useLanguage()
 
   return (
-    <section className="py-20 bg-page">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -37,12 +37,7 @@ export default function HomeCTA() {
               {lang === 'fr' ? 'Prendre contact' : 'Get in touch'}
               <ArrowRight size={15} />
             </Link>
-            <Link
-              href="/cas-clients"
-              className="inline-flex items-center justify-center gap-2 px-7 py-4 border border-white/40 text-white font-semibold rounded-lg hover:bg-white/10 transition-all text-sm"
-            >
-              {lang === 'fr' ? 'Voir les cas clients' : 'View case studies'}
-            </Link>
+
           </div>
         </motion.div>
       </div>

@@ -56,11 +56,11 @@ export default function CaseStudies() {
     <section
       id="caseStudies"
       className="relative py-32 overflow-hidden"
-      style={{ background: 'linear-gradient(180deg, #070C18 0%, #0C1422 100%)' }}
+      style={{ background: 'linear-gradient(180deg, #14181E 0%, #222831 100%)' }}
     >
       <div
         className="absolute top-0 left-0 right-0 h-px"
-        style={{ background: 'linear-gradient(to right, transparent, rgba(245,166,35,0.25), transparent)' }}
+        style={{ background: 'linear-gradient(to right, transparent, rgba(148,137,121,0.25), transparent)' }}
       />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
@@ -119,8 +119,8 @@ export default function CaseStudies() {
             {visible.map((cs, i) => {
               const Icon = iconMap[cs.icon]
               const isExpanded = expandedId === cs.id
-              const accentColor = cs.color === 'cyan' ? '#00D9FF' : '#F5A623'
-              const accentBg   = cs.color === 'cyan' ? 'rgba(0,217,255,0.07)' : 'rgba(245,166,35,0.07)'
+              const accentColor = cs.color === 'cyan' ? '#948979' : '#DFD0B8'
+              const accentBg   = cs.color === 'cyan' ? 'rgba(148,137,121,0.07)' : 'rgba(223,208,184,0.07)'
 
               return (
                 <motion.div
@@ -132,7 +132,7 @@ export default function CaseStudies() {
                   transition={{ duration: 0.3, delay: i * 0.05 }}
                   className="rounded-xl overflow-hidden border border-white/6 flex flex-col group"
                   style={{
-                    background: 'linear-gradient(150deg, #111D30 0%, #0C1422 100%)',
+                    background: 'linear-gradient(150deg, #393E46 0%, #2D333B 100%)',
                     ...(isExpanded
                       ? { borderColor: accentColor + '35', boxShadow: `0 0 40px ${accentColor}10` }
                       : {}),

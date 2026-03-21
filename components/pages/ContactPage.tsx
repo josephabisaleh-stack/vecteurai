@@ -42,14 +42,12 @@ export default function ContactPage() {
   const inputClass = 'w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100 transition-all duration-150'
 
   return (
-    <div className="pt-16 min-h-screen bg-page">
+    <div className="pt-16 min-h-screen bg-white">
       {/* Page title */}
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-6 py-12">
-          <p className="text-xs font-bold text-blue-600 uppercase tracking-[0.2em] mb-3" style={{ fontFamily: 'var(--font-syne)' }}>
-            {t.contact.sectionTag[lang]}
-          </p>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight whitespace-pre-line" style={{ fontFamily: 'var(--font-syne)' }}>
+       
+          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight" style={{ fontFamily: 'var(--font-syne)' }}>
             {t.contact.headline[lang]}
           </h1>
           <p className="text-gray-500 mt-3">{t.contact.sub[lang]}</p>
@@ -64,7 +62,7 @@ export default function ContactPage() {
             {/* Profile card */}
             <div
               className="rounded-2xl p-8 border border-gray-200 shadow-sm mb-6"
-              style={{ background: 'linear-gradient(145deg, #ffffff 0%, #f0f4ff 100%)' }}
+              style={{ background: 'white' }}
             >
               <div className="w-14 h-14 rounded-full bg-blue-100 border-2 border-blue-200 flex items-center justify-center mb-4">
                 <span className="text-lg font-extrabold text-blue-600" style={{ fontFamily: 'var(--font-syne)' }}>JA</span>

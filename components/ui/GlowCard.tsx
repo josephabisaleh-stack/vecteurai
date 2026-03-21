@@ -10,7 +10,7 @@ interface GlowCardProps {
 }
 
 export default function GlowCard({ children, color = 'cyan', className = '', delay = 0 }: GlowCardProps) {
-  const accentColor = color === 'cyan' ? '#00D9FF' : '#F5A623'
+  const accentColor = color === 'cyan' ? '#948979' : '#DFD0B8'
 
   return (
     <motion.div
@@ -24,7 +24,7 @@ export default function GlowCard({ children, color = 'cyan', className = '', del
       }}
       className={`relative bg-dark-900 border border-white/6 rounded-xl p-6 overflow-hidden group cursor-default ${className}`}
       style={{
-        background: 'linear-gradient(135deg, rgba(17,29,48,0.95) 0%, rgba(11,20,40,1) 100%)',
+        background: 'linear-gradient(135deg, rgba(57,62,70,0.95) 0%, rgba(20,24,30,1) 100%)',
       }}
     >
       {/* Left accent bar */}

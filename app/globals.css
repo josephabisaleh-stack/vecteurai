@@ -2,33 +2,52 @@
 
 @theme {
   /* Page background */
-  --color-page: #F7F8FA;
+  --color-page: #DFD0B8;
 
-  /* Navy / dark text */
-  --color-navy-900: #0B1120;
-  --color-navy-800: #111827;
-  --color-navy-700: #1F2937;
+  /* Charcoal / dark — replaces navy */
+  --color-navy-900: #14181E;
+  --color-navy-800: #222831;
+  --color-navy-700: #2D333B;
 
-  /* Blue accent — matches screenshot ~#2563EB */
-  --color-blue-700: #1D4ED8;
-  --color-blue-600: #2563EB;
-  --color-blue-500: #3B82F6;
-  --color-blue-100: #DBEAFE;
-  --color-blue-50:  #EFF6FF;
+  /* Charcoal accent — replaces blue */
+  --color-blue-700: #222831;
+  --color-blue-600: #222831;
+  --color-blue-500: #66635F;
+  --color-blue-400: #948979;
+  --color-blue-100: #DFD0B8;
+  --color-blue-50:  #EAE1D0;
 
-  /* Grays */
-  --color-gray-900: #111827;
-  --color-gray-700: #374151;
-  --color-gray-500: #6B7280;
-  --color-gray-400: #9CA3AF;
-  --color-gray-300: #D1D5DB;
-  --color-gray-200: #E5E7EB;
-  --color-gray-100: #F3F4F6;
-  --color-gray-50:  #F9FAFB;
+  /* Warm stone — replaces grays */
+  --color-gray-900: #222831;
+  --color-gray-700: #222831;
+  --color-gray-500: #66635F;
+  --color-gray-400: #948979;
+  --color-gray-300: #B9AC98;
+  --color-gray-200: #DFD0B8;
+  --color-gray-100: #E8DECE;
+  --color-gray-50:  #EAE1D0;
 
-  /* Amber */
-  --color-amber-500: #F59E0B;
-  --color-amber-100: #FEF3C7;
+  /* Taupe — replaces amber */
+  --color-amber-500: #948979;
+  --color-amber-400: #948979;
+  --color-amber-100: #DFD0B8;
+
+  /* Taupe — replaces cyan / emerald */
+  --color-cyan-400:    #948979;
+  --color-cyan-500:    #66635F;
+  --color-emerald-400: #948979;
+  --color-emerald-500: #66635F;
+
+  /* Slate — text in dark sections */
+  --color-slate-300: #B9AC98;
+  --color-slate-400: #948979;
+  --color-slate-500: #66635F;
+  --color-slate-600: #393E46;
+
+  /* Dark section backgrounds */
+  --color-dark-950: #14181E;
+  --color-dark-900: #14181E;
+  --color-dark-800: #222831;
 
   /* Fonts */
   --font-syne:      var(--font-syne);
@@ -39,8 +58,8 @@
 html { scroll-behavior: smooth; }
 
 body {
-  background-color: #F7F8FA;
-  color: #374151;
+  background-color: #DFD0B8;
+  color: #222831;
   font-family: var(--font-dm-sans), system-ui, sans-serif;
 }
 

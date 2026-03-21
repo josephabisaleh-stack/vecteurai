@@ -15,7 +15,7 @@ export default function ProfilePage() {
   const [photoError, setPhotoError] = useState(false)
 
   return (
-    <div className="pt-16 min-h-screen bg-page">
+    <div className="pt-16 min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
 
@@ -29,16 +29,16 @@ export default function ProfilePage() {
             <div
               className="rounded-2xl p-8 flex flex-col items-center text-center border border-gray-200 shadow-sm"
               style={{
-                background: 'linear-gradient(145deg, #ffffff 0%, #f0f4ff 100%)',
+                background: 'linear-gradient(145deg, #DFD0B8 0%, #B9AC98 100%)',
               }}
             >
               {/* Avatar */}
-              <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-blue-200 mb-5 bg-blue-100 flex items-center justify-center shrink-0">
+              <div className="w-50 h-50 rounded-full overflow-hidden border-2 border-blue-200 mb-5 bg-blue-100 flex items-center justify-center shrink-0">
                 {photoError ? (
                   <span className="text-2xl font-bold text-blue-600" style={{ fontFamily: 'var(--font-syne)' }}>JA</span>
                 ) : (
                   <Image
-                    src="/joseph.jpg"
+                    src="/joseph.png"
                     alt="Joseph Abisaleh"
                     width={96}
                     height={96}

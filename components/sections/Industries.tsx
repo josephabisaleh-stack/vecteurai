@@ -32,12 +32,12 @@ export default function Industries() {
     <section
       id="industries"
       className="relative py-32 overflow-hidden"
-      style={{ background: 'linear-gradient(180deg, #0C1422 0%, #0A1120 100%)' }}
+      style={{ background: 'linear-gradient(180deg, #222831 0%, #14181E 100%)' }}
     >
       {/* Top edge — transition from light Profile section */}
       <div
         className="absolute top-0 left-0 right-0 h-px"
-        style={{ background: 'linear-gradient(to right, transparent, rgba(0,217,255,0.25), transparent)' }}
+        style={{ background: 'linear-gradient(to right, transparent, rgba(148,137,121,0.25), transparent)' }}
       />
 
       {/* Subtle background grid */}
@@ -45,7 +45,7 @@ export default function Industries() {
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <pattern id="fine-grid" width="60" height="60" patternUnits="userSpaceOnUse">
-              <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(0,217,255,0.04)" strokeWidth="1" />
+              <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(148,137,121,0.04)" strokeWidth="1" />
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#fine-grid)" />
@@ -93,7 +93,7 @@ export default function Industries() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
             className="mt-8 h-px origin-left"
-            style={{ background: 'linear-gradient(to right, rgba(0,217,255,0.4), transparent)' }}
+            style={{ background: 'linear-gradient(to right, rgba(148,137,121,0.4), transparent)' }}
           />
         </div>
 
@@ -102,8 +102,8 @@ export default function Industries() {
           {items.map((item, i) => {
             const Icon = iconMap[item.icon]
             const color = iconColors[i]
-            const iconColor = color === 'cyan' ? '#00D9FF' : '#F5A623'
-            const iconBg = color === 'cyan' ? 'rgba(0,217,255,0.08)' : 'rgba(245,166,35,0.08)'
+            const iconColor = color === 'cyan' ? '#948979' : '#DFD0B8'
+            const iconBg = color === 'cyan' ? 'rgba(148,137,121,0.08)' : 'rgba(223,208,184,0.08)'
             return (
               <GlowCard key={i} color={color} delay={i * 0.07}>
                 <div>

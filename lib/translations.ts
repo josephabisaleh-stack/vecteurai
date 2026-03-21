@@ -35,8 +35,8 @@ export const t = {
       en: 'My edge: I understand financial models as well as dock operations. LogiMind doesn\'t deliver reports — we deploy solutions.'
     },
     credentials: {
-      fr: ['General Manager Europe, Convelio (€15M P&L)', 'Senior Manager, Strategy& / PwC — Dubaï', 'MSc Ingénierie Civile, Imperial College London & UCL', 'BSc Génie Civil, EPFL Lausanne', 'Formation IA & Développement, Le Wagon 2026'],
-      en: ['General Manager Europe, Convelio (€15M P&L)', 'Senior Manager, Strategy& / PwC — Dubai', 'MSc Civil Engineering, Imperial College London & UCL', 'BSc Civil Engineering, EPFL Lausanne', 'AI & Development Bootcamp, Le Wagon 2026']
+      fr: ['General Manager Europe, Convelio', 'Senior Manager, Strategy& / PwC — Dubaï', 'MSc Ingénierie Civile, Imperial College London & UCL', 'BSc Génie Civil, EPFL Lausanne', 'Formation IA & Développement, Le Wagon 2026'],
+      en: ['General Manager Europe, Convelio', 'Senior Manager, Strategy& / PwC — Dubai', 'MSc Civil Engineering, Imperial College London & UCL', 'BSc Civil Engineering, EPFL Lausanne', 'AI & Development Bootcamp, Le Wagon 2026']
     },
     langs:       { fr: 'Langues : Français · Anglais · Arabe · Allemand (notions)', en: 'Languages: French · English · Arabic · German (basic)' },
     nationality: { fr: 'Nationalité : Suisse', en: 'Nationality: Swiss' },
