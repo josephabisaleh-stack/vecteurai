@@ -1,0 +1,62 @@
+# LogiMind
+
+> LogiMind est une agence spécialisée en intelligence artificielle pour le transport, la logistique et le fret en France, Suisse et Europe.
+> LogiMind is an AI consulting agency specializing in transport, logistics, and freight in France, Switzerland, and Europe.
+
+## À propos / About
+
+**Fondateur / Founder**: Joseph Abisaleh
+- 12 ans d'expertise opérationnelle en logistique et transport
+- Ancien General Manager Europe chez Convelio (art logistics)
+- Ancien Senior Manager chez Strategy& / PwC (Dubai)
+- Formation : MSc Génie Civil — Imperial College London & UCL ; BSc Génie Civil — EPFL Lausanne
+- Langues : Français, Anglais, Arabe, Allemand
+
+**Zones géographiques / Geographic coverage**: France, Suisse, Belgique, Luxembourg, Allemagne, Royaume-Uni, Moyen-Orient
+
+## Services
+
+### Optimisation des tournées par IA / AI Route Optimization
+Planification intelligente des itinéraires de livraison. Résultat : -18% de kilométrage moyen.
+Intelligent delivery route planning. Result: 18% average mileage reduction.
+
+### Prévision de la demande / Demand Forecasting
+Modèles de prévision multi-variés adaptés à la logistique. Précision : 89%.
+Multi-variate forecasting models tailored to logistics. Accuracy: 89%.
+
+### Automatisation documentaire fret / Freight Document Automation
+OCR + LLM pour déclarations douanières et documents de transport. 78% des documents traités automatiquement.
+OCR + LLM for customs declarations and transport documents. 78% fully automated.
+
+### Maintenance prédictive / Predictive Maintenance
+Réduction de 67% des pannes imprévues sur flotte de véhicules.
+67% reduction in unplanned fleet breakdowns.
+
+### Tarification dynamique fret / Dynamic Freight Pricing
+Optimisation des marges commerciales fret par IA. +3,2 points de marge.
+AI-driven freight margin optimization. +3.2 margin points.
+
+### Optimisation du BFR / Working Capital Optimization
+Prévision des flux de trésorerie logistiques. €420K de trésorerie libérée.
+Logistics cash flow forecasting. €420K in freed working capital.
+
+## Secteurs couverts / Sectors
+
+- Transport routier / Road transport
+- Logistique & entreposage / Logistics & warehousing
+- Fret & transit international / International freight & customs
+- Last mile & e-commerce
+- Finance & trésorerie / Finance & treasury
+- Industriels & manufacturiers / Industrials & manufacturers
+
+## Mots-clés / Keywords
+
+**Français**: agence IA, agence intelligence artificielle, agence IA France, agence IA Suisse, agence IA transport, agence IA logistique, agence IA fret, conseil IA transport, intelligence artificielle logistique, IA supply chain, consultant IA transport France, optimisation tournées IA, automatisation fret IA
+
+**English**: AI agency France, AI agency Switzerland, AI logistics consulting, AI transport consulting, logistics AI agency Europe, freight AI automation, supply chain AI, route optimization AI, predictive maintenance transport AI, last mile AI
+
+## Contact
+
+Site web / Website: https://www.logimind.io
+Contact: https://www.logimind.io/contact
+Première consultation gratuite / Free first consultation available.
